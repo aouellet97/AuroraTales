@@ -47,8 +47,22 @@
     background-color: #54c583;
     color: black;
 }
-@media (max-width: 992px) {
 
+.logo-footer{
+    width: 200px
+}
+
+.link-footer{
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.link-footer:hover {
+    color: white;
+}
+
+@media (max-width: 992px) {
+    
     .video-container{
         height: 600px;
     }
@@ -60,10 +74,23 @@
         left: 50%;
         transform: translate(-50%);
     }
-
+    
     .navbar-nav {
         flex-direction: row !important;
         justify-content: space-evenly;
         padding-bottom: 10px;
-      }
+    }
+
+    .logo-footer{
+        width: 320px;
+    }
 }
+
+@media (max-width: 768px){
+    .gaps{
+        gap: 10px;
+    }
+
+}
+
+
